@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Build Result
-        path: ${{ env.Wap_Project_Directory }}\out
+        path: ${{ env.Project_Directory }}\out
